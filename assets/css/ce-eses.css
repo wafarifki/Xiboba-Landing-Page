@@ -229,6 +229,12 @@ header ul li a:hover {
     background: #dd303e00;
 }
 
+.menu-utama2 {
+    display: none;
+}
+
+
+
 
 @media (min-width: 320px) and (max-width : 640px) {
     header {
@@ -267,16 +273,20 @@ header ul li a:hover {
     }
 
     .menu-utama {
+        display: none;
+    }
+
+    .menu-utama2 {
         background: #DD303E;
     }
 
-    header ul.menu-utama.active {
+    header ul.menu-utama2.active {
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        display: flex;
+        display: flex !important;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -347,7 +357,7 @@ header ul li a:hover {
     }
 
     .menu {
-        background-color: #DD303E;
+        background: #DD303E;
         border: none;
         cursor: pointer;
         display: flex;
