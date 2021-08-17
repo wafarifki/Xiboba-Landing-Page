@@ -5,9 +5,11 @@ function SliderProduk(anything)
 function UbahWarnaBg(color)
 {
     const menue = document.getElementById("menue")
+    const menuuu = document.querySelector(".menu-utama2")
     const circle = document.querySelector('.circle')
     const span = document.querySelector('span')
     const a = document.querySelector('.kontener-teks a')
+    menuuu.style.background = color
     circle.style.background = color
     span.style.color = color
     a.style.background = color
@@ -26,7 +28,7 @@ function UbahWarnaBg(color)
 function toggleMenu()
 {
     var menu = document.getElementById("menue")
-    var navMenu = document.querySelector('.menu-utama')
+    var navMenu = document.querySelector('.menu-utama2')
     menu.classList.toggle('active')
     navMenu.classList.toggle('active')
 }
