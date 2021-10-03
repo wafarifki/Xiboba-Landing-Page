@@ -1,3 +1,18 @@
+        
+/*-------------------------------------
+       JavaScript for Peloader start     
+-------------------------------------*/
+
+const preloader = document.getElementById('loading');
+function myFunction()
+{
+    preloader.style.display = 'none';
+}
+
+/*-------------------------------------
+       JavaScript for Peloader end    
+-------------------------------------*/
+
 function SliderProduk(anything)
 {
     document.querySelector('.xibobah').src = anything

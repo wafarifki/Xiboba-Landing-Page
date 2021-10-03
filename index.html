@@ -5,9 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xi Boba Landing Page</title>
+      <!-----Font Awesome cdn------------------->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-----Font Awesome Pro cdn--------------->
+      <link rel="stylesheet"  href="https://pro.fontawesome.com/releases/v6.0.0-beta2/css/all.css" />
+
     <link rel="stylesheet" href="assets/css/ce-eses.css">
 </head>
-<body>
+
+<body onload="myFunction()">
+
+    <!--------------Pre Loader start-------------------->
+    <div id="loading">
+        <div class="loader">
+            <div class="rocket">
+                <i class="fad fa-rocket-launch rocketin"></i>
+                <i class="fad fa-clouds" style="--i:0;"></i>
+                <i class="fad fa-clouds" style="--i:1;"></i>
+                <i class="fad fa-clouds" style="--i:2;"></i>
+                <i class="fad fa-clouds" style="--i:3;"></i>
+            </div>
+            <span><i></i></span>
+        </div>
+    </div>
+    
+    <!--------------Pre Loader end--------------------->
+
+
     <section>
         <div class="circle">
             <div class="circle2">
@@ -54,6 +78,7 @@
             <li><img src="assets/images/thumb3.png" onclick="SliderProduk('assets/images/img3.png');UbahWarnaBg('#9E5C94')" alt=""></li>
         </ul>
     </section>
+
     <script src="assets/js/jees.js"></script>
 </body>
 </html>
