@@ -39,6 +39,11 @@ function UbahWarnaBg(color)
 
     menue.style.background = color
 }
+function spanColor(color)
+{
+    const span = document.querySelector('.kontener-teks h2 span')
+    span.style.color = color
+}
 
 function toggleMenu()
 {
