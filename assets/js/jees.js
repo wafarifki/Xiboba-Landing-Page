@@ -38,7 +38,7 @@ function UbahWarnaBg(color)
     const circle = document.querySelector('.circle')
     const span = document.querySelector('span')
     const a = document.querySelector('.kontener-teks a')
-    menue.style.background = color
+    menuuu.style.background = color
     circle.style.background = color
     span.style.color = color
     a.style.background = color
