@@ -12,19 +12,33 @@ function myFunction()
 /*-------------------------------------
        JavaScript for Peloader end    
 -------------------------------------*/
+const btn = document.querySelector('button.btn')
 
 function SliderProduk(anything)
 {
-    document.querySelector('.xibobah').src = anything
+    document.querySelector('.xibobah').src = anything;
+    if(anything === 'assets/images/img1.png'){
+        btn.style.backgroundColor = '#dd303e';
+        btn.style.color = '#fff';
+    }
+    else if(anything === 'assets/images/img2.png'){
+        btn.style.backgroundColor = '#926c15';
+        btn.style.color = '#fff';
+    }
+    else{
+        btn.style.backgroundColor = '#240046';
+        btn.style.color = '#fff';
+    }
+    
 }
 function UbahWarnaBg(color)
 {
-    const menue = document.getElementById("menue")
+    const menue = document.getElementById("#menue")
     const menuuu = document.querySelector(".menu-utama2")
     const circle = document.querySelector('.circle')
     const span = document.querySelector('span')
     const a = document.querySelector('.kontener-teks a')
-    menuuu.style.background = color
+    menue.style.background = color
     circle.style.background = color
     span.style.color = color
     a.style.background = color
