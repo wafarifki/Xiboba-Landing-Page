@@ -61,7 +61,7 @@ function spanColor(color)
 
 function toggleMenu()
 {
-    var menu = document.getElementById("menue")
+    var menu = document.getElementById("#menue")
     var navMenu = document.querySelector('.menu-utama2')
     menu.classList.toggle('active')
     navMenu.classList.toggle('active')
