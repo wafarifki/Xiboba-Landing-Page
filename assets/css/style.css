@@ -292,6 +292,11 @@ input.add_chart:hover {
   text-align:center;
   padding:10px;
   margin-top:7px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
   /* The Modal (background) */
